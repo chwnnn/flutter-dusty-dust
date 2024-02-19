@@ -22,7 +22,7 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		8RHkWcZ6iQEretRwxIajEjUhz4A=
+		O0+CPdtn4z80Fw8bWVKAVcIb9cY=
 		</data>
 		<key>flutter_assets/asset/fonts/Sunflower-Bold.ttf</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>flutter_assets/isolate_snapshot_data</key>
 		<data>
-		x4w1fg5FB8eXxTc90kcZ7b48F1Q=
+		NCrHh2I/9lzrnFtL1HoDKjZ7+as=
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		KN6P0nmiCmTZf3l74ikT1xdSVFY=
+		3RqGN7CtCE0YFf9ryiLk1Fr8MYU=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
-		ZiX/DByz8A2xHGmziP9zxnaRW9M=
+		hBZgIGdEvhX+IvXd5bjkjJVu6+s=
 		</data>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<data>
-		cW0Pqsk2814YYWUEON+YgI6+YD0=
+		ap40xllbguuMfkV4mJkKh/NQWg4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H4OPvAUotJXX8Wx5YGzvc/wubsEFSSGPop4vJ7als7w=
+			pe6LDVIG38XrTmQmNI1BJ6uNVg3BJeGAqnCYsONNrOE=
 			</data>
 		</dict>
 		<key>flutter_assets/asset/fonts/Sunflower-Bold.ttf</key>
@@ -211,14 +211,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HgMP0F7zDIOQIr0MjiGg5sG/Iid709JgNXhKsduXTQI=
+			3rvMR75WR8kps7lNIY2RyLcGN/CMl8fbUB7vlaky7/s=
 			</data>
 		</dict>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QkVCSYW9CfrKODfCKOIJOxe++PyyHdQXeo8MCnVwEPY=
+			2yF0qDnjSyMSDTmFiicQgejFUMlcw0cDr4L5UwSDhdA=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -232,14 +232,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			49CVVGC0BQtpsarzJBllXjeVYst0OhUVq6Izlb7jGMQ=
+			0T+w183eMSTh5phjUfkXjg4ZpPYnVqkH4Gv3Ge4QCh8=
 			</data>
 		</dict>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sev5a27JT/ZUSpHrGmWBmxjqtUgq1PyqOI5pHwvTLwg=
+			6eubeZZqyUNzwtBtT1r66GIIirzwERUZET0Gp6oe/CI=
 			</data>
 		</dict>
 	</dict>

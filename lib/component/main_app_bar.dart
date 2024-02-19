@@ -1,9 +1,24 @@
+import 'package:dusty_dust/model/status_model.dart';
 import 'package:flutter/material.dart';
-
 import '../const/colors.dart';
+import '../model/stat_model.dart';
+import '../utils/data_utils.dart';
 
 class MainAppBar extends StatelessWidget {
-  const MainAppBar({super.key});
+  final String region;
+  final StatusModel status;
+  final StatModel stat;
+  final DateTime dateTime;
+  final bool isExpanded;
+
+  const MainAppBar({
+    required this.region,
+    required this.status,
+    required this.stat,
+    required this.dateTime,
+    required this.isExpanded,
+    Key? key,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,8 +28,21 @@ class MainAppBar extends StatelessWidget {
     );
 
     return SliverAppBar(
+      backgroundColor: status.primaryColor,
+      pinned: true,
+      iconTheme: IconThemeData(
+        color: Colors.white,
+      ),
+      title: isExpanded
+          ? null
+          : Text(
+              '$region ${DataUtils.getTimeFromDateTime(dateTime: dateTime)}',
+              style: TextStyle(
+                color: Colors.white,
+              ),
+            ),
+      centerTitle: true,
       expandedHeight: 500,
-      backgroundColor: primaryColor,
       flexibleSpace: FlexibleSpaceBar(
         background: SafeArea(
           child: Container(
@@ -22,26 +50,26 @@ class MainAppBar extends StatelessWidget {
             child: Column(
               children: [
                 Text(
-                  '서울',
+                  region,
                   style: ts.copyWith(
                     fontSize: 40.0,
                     fontWeight: FontWeight.w700,
                   ),
                 ),
                 Text(
-                  DateTime.now().toString(),
+                  DataUtils.getTimeFromDateTime(dateTime: stat.dataTime),
                   style: ts.copyWith(
                     fontSize: 20.0,
                   ),
                 ),
                 const SizedBox(height: 20.0),
                 Image.asset(
-                  'asset/img/mediocre.png',
+                  status.imagePath,
                   width: MediaQuery.of(context).size.width / 2,
                 ),
                 const SizedBox(height: 20.0),
                 Text(
-                  '보통',
+                  status.label,
                   style: ts.copyWith(
                     fontSize: 40.0,
                     fontWeight: FontWeight.w700,
@@ -49,7 +77,7 @@ class MainAppBar extends StatelessWidget {
                 ),
                 const SizedBox(height: 8.0),
                 Text(
-                  '나쁘지 않네요!',
+                  status.comment,
                   style: ts.copyWith(
                     fontSize: 20.0,
                     fontWeight: FontWeight.w700,

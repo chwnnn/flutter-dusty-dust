@@ -1,0 +1,1 @@
+const serviceKey = 'YOUR_KEY_HERE';
